@@ -6,6 +6,9 @@ index 0000000000000000000000000000000000000000..25c7226739a949550c9dc56ea427840a
 @@ -0,0 +1,54 @@
 +# Milan Olympics Medal Data Agent (Databricks)
 +
+
+
+
 +This project prepares a **daily medal snapshot** for the Milan Olympics, validates it, and stages it for Databricks Delta ingestion.
 +
 +It is designed as an **agentic AI-style workflow**:
@@ -15,6 +18,10 @@ index 0000000000000000000000000000000000000000..25c7226739a949550c9dc56ea427840a
 +4. Write curated daily snapshot locally.
 +5. (In Databricks runtime) upsert into Delta table.
 +
+
+
+
+
 +## Repository layout
 +
 +- `src/medals_agent.py` – end-to-end agentic pipeline.
